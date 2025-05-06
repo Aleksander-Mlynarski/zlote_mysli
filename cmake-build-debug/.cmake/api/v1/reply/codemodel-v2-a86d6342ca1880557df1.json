@@ -9,13 +9,14 @@
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.31"
+						"string" : "3.13"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "zlote_mysli",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -39,8 +41,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "zlote_mysli::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-zlote_mysli-Debug-9acf301b649a9bef6a0e.json",
+					"jsonFile" : "target-zlote_mysli-Debug-fb01113810504b82fed8.json",
 					"name" : "zlote_mysli",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zlote_mysli__debug::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zlote_mysli__debug-Debug-783159bfc64ab8126f5b.json",
+					"name" : "zlote_mysli__debug",
 					"projectIndex" : 0
 				}
 			]

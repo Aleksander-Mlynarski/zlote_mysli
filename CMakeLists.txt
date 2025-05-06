@@ -1,14 +1,18 @@
 cmake_minimum_required(VERSION 3.13)
 
-set(PROJECT_ID catalogue)
+set(PROJECT_ID zlote_mysli)
+project(${PROJECT_ID})
 
-set(SOURCE_FILES
-        src/catalogue.cpp
+file(GLOB_RECURSE SOURCE_FILES CONFIGURE_DEPENDS
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp
 )
 
-set(SOURCES_FILES_TESTS
-        test/test_catalogue.cpp
-        test/test_product.cpp
+file(GLOB_RECURSE HEADER_FILES CONFIGURE_DEPENDS
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/*.hpp
 )
+
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 include(SetCommonConfig.cmake)
+
+add_executable(${PROJECT_ID} ${SOURCE_FILES} ${HEADER_FILES})
