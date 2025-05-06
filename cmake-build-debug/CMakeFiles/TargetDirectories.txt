@@ -1,0 +1,3 @@
+D:/npg projekt/zlote_mysli/cmake-build-debug/CMakeFiles/zlote_mysli.dir
+D:/npg projekt/zlote_mysli/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/npg projekt/zlote_mysli/cmake-build-debug/CMakeFiles/rebuild_cache.dir
