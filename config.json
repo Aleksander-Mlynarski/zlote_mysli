@@ -1,0 +1,10 @@
+{
+  "smtp": {
+    "server": "smtp.gmail.com",
+    "port": 587,
+    "username": "zlotemysli777@gmail.com",
+    "password": "ziuwvobyavhnokue"
+  },
+  "recipient": "melaniukmilena@gmail.com",
+  "send_time": "21:11"
+}
